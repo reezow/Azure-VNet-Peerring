@@ -37,4 +37,6 @@ In this project, I created two virtual networks (VNets) in Azure, connected them
    - Network Security Group (NSG): nsg-2
 
 ### Step 4: Establish Communication
-1. Connect to vm-1 through Bastion
+1. Connected to vm-1 through Bastion
+   - pinged the IP address of the target VM I am trying to reach 
+    > ping -c 4 10.1.0.4
