@@ -4,7 +4,7 @@ Virtual Network Peering allows you to connect two or more Virtual Networks in Az
 
 Imagine that you have a virtual machine in VNet01. This VM needs to see another VM that is deployed to another Azure VNet. You can simply create VNet peering between these two VNets, allowing these VMs to communicate with each other.
 
-In this project, I created two virtual networks (VNets) in Azure, connected them using VNet peering, deployed a virtual machine (VM) into each VNet, and established communication between the VMs using the `ping` command.
+In this project (using the Azure Portal), I created two virtual networks (VNets) in Azure, connected them using VNet peering, deployed a virtual machine (VM) into each VNet, and established communication between the VMs using the `ping` command.
 
 ## Prerequisites
 - Preconfigured Azure lab with a subscription and resource group
